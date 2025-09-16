@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raiven - Full Stack Developer & Data Entry Specialist</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Floating Background Elements -->
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+
+    <!-- Navigation -->
+    <nav class="glass">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content glass-strong">
+        <h1>Hi, I'm Raiven</h1>
+        <p>
+          Full Stack Developer &amp; Data Entry Specialist &amp;
+          Transcriptionist
+        </p>
+        <!--  Added languages and enhanced description -->
+        <div class="languages">
+          <div class="language-item glass">Arabic (Native)</div>
+          <div class="language-item glass">English (Fluent)</div>
+        </div>
+        <ul class="age-counter glass" id="ageCounter">
+          <li>AGE</li>
+          <li id="ageYear">22Y</li>
+          <li id="ageMonths">10M</li>
+          <li id="ageDays">15D</li>
+        </ul>
+        <div class="hero-description">
+          Crafting digital experiences with modern technologies and providing
+          precise data entry solutions. Passionate about creating efficient,
+          scalable applications and maintaining data accuracy.
+        </div>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a
+            href="https://facebook.com/profile.php"
+            class="btn btn-secondary"
+            onclick="downloadCV()"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--  About Me Section -->
+    <section id="about" class="about">
+      <div class="about-content container">
+        <div class="about-text glass">
+          <h2>About Me</h2>
+          <p>
+            I'm Raiven, a passionate Full Stack Developer and Data Entry
+            Specialist with expertise in modern web technologies. I speak Arabic
+            natively and English fluently, allowing me to work with diverse
+            international teams.
+          </p>
+          <p>
+            My journey in technology combines creative problem-solving with
+            meticulous attention to detail. Whether I'm building responsive web
+            applications or ensuring data accuracy in complex systems, I bring
+            the same level of dedication and precision to every project.
+          </p>
+          <p>
+            I believe in continuous learning and staying updated with the latest
+            industry trends. My goal is to create solutions that not only meet
+            technical requirements but also provide exceptional user
+            experiences.
+          </p>
+        </div>
+        <figure class="about-image">
+          <img
+            src="https://avatars.githubusercontent.com/u/232469937?v=4"
+            alt="Raiven Professional Photo"
+            class="profile-placeholder"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!--  Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-grid">
+          <div class="service-card glass">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="service-title">Full Stack Development</h3>
+            <p class="service-description">
+              Complete web application development using modern frameworks like
+              React, Node.js, and databases. From concept to deployment, I
+              handle every aspect of your project.
+            </p>
+          </div>
+
+          <div class="service-card glass">
+            <div class="service-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3 class="service-title">Responsive Web Design</h3>
+            <p class="service-description">
+              Creating beautiful, responsive websites that work perfectly on all
+              devices. Focus on user experience, performance, and modern design
+              principles.
+            </p>
+          </div>
+
+          <div class="service-card glass">
+            <div class="service-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="service-title">Data Entry & Management</h3>
+            <p class="service-description">
+              Accurate and efficient data entry services with attention to
+              detail. Database management, data cleaning, and organization for
+              businesses of all sizes.
+            </p>
+          </div>
+
+          <div class="service-card glass">
+            <div class="service-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3 class="service-title">Backend Development</h3>
+            <p class="service-description">
+              Robust server-side development with APIs, database integration,
+              and cloud deployment. Scalable solutions built with security and
+              performance in mind.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Marquee -->
+    <section id="skills" class="skills-section">
+      <div class="skills-marquee">
+        <div class="skill-item glass">JavaScript</div>
+        <div class="skill-item glass">React</div>
+        <div class="skill-item glass">Node.js</div>
+        <div class="skill-item glass">Python</div>
+        <div class="skill-item glass">MongoDB</div>
+        <div class="skill-item glass">PostgreSQL</div>
+        <div class="skill-item glass">Express.js</div>
+        <div class="skill-item glass">Next.js</div>
+        <div class="skill-item glass">TypeScript</div>
+        <div class="skill-item glass">Docker</div>
+        <div class="skill-item glass">AWS</div>
+        <div class="skill-item glass">Git</div>
+        <div class="skill-item glass">Data Entry</div>
+        <div class="skill-item glass">Excel</div>
+        <!-- Duplicate for seamless loop -->
+        <div class="skill-item glass">JavaScript</div>
+        <div class="skill-item glass">React</div>
+        <div class="skill-item glass">Node.js</div>
+        <div class="skill-item glass">Python</div>
+        <div class="skill-item glass">MongoDB</div>
+        <div class="skill-item glass">PostgreSQL</div>
+        <div class="skill-item glass">Express.js</div>
+        <div class="skill-item glass">Next.js</div>
+        <div class="skill-item glass">TypeScript</div>
+        <div class="skill-item glass">Docker</div>
+        <div class="skill-item glass">AWS</div>
+        <div class="skill-item glass">Git</div>
+        <div class="skill-item glass">Data Entry</div>
+        <div class="skill-item glass">Excel</div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid" id="projectsContainer">
+          <!-- Updated Automaticly from JS -->
+        </div>
+      </div>
+    </section>
+
+    <!--  Enhanced Contact Section with more social media links -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+
+        <div class="contact-content glass-strong">
+          <div class="contact-info">
+            <h3>Ready to work together?</h3>
+            <p>
+              I'm always open to discussing new opportunities, interesting
+              projects, and data entry tasks. Let's connect through any of these
+              platforms!
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:raiven.rt@gmail.com" class="contact-link glass">
+              <i class="fas fa-envelope"></i>
+              Gmail
+            </a>
+            <a
+              href="https://github.com/raivenrt"
+              target="_blank"
+              class="contact-link glass"
+            >
+              <i class="fab fa-github"></i>
+              GitHub
+            </a>
+            <!-- <a
+              href="https://linkedin.com/in/raivenrt"
+              target="_blank"
+              class="contact-link glass"
+            >
+              <i class="fab fa-linkedin"></i>
+              LinkedIn
+            </a>
+            <a
+              href="https://facebook.com/raivenrt"
+              target="_blank"
+              class="contact-link glass"
+            >
+              <i class="fab fa-facebook"></i>
+              Facebook
+            </a> -->
+            <!-- <a
+              href="https://instagram.com/raivenrt"
+              target="_blank"
+              class="contact-link glass"
+            >
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a> -->
+            <a
+              href="https://wa.me/+201006985069"
+              target="_blank"
+              class="contact-link glass"
+            >
+              <i class="fab fa-whatsapp"></i>
+              WhatsApp
+            </a>
+            <!-- <a href="#" onclick="downloadCV()" class="contact-link glass">
+              <i class="fas fa-download"></i>
+              Download CV
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="./github.js"></script>
+  </body>
+</html>
