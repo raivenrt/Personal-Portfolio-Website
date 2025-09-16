@@ -1,8 +1,7 @@
 // Configrations
-// const CACHE_EXPIRY = 24 * 60 * 60 * 1000;
 const username = "raivenrt";
 const url = `https://api.github.com/users/${username}/repos`;
-const CACHE_EXPIRY = 5000;
+const CACHE_EXPIRY = 1 * 60 * 60 * 1000; // 1 Hour
 const CACHE_KEY = `${username}_repos`;
 
 /**
